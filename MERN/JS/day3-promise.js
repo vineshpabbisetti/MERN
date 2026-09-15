@@ -58,7 +58,7 @@ async function displayData() {
     const result = await getData();
 
     console.log(result);
-
+ 
     
 }
 
@@ -80,7 +80,18 @@ displayData();
 displayData1(); 
 
 
+async function getUsers() {
 
+    const response = await fetch(
+        "https://jsonplaceholder.typicode.com/users"
+    );
+
+    const data = await response.json();
+
+    console.log(data);
+}
+
+getUsers();
 
 
 
