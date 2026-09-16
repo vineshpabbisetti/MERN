@@ -1,36 +1,36 @@
 
-// /// Your First Promise Practice
+/// Your First Promise Practice
 
-// const promise = new Promise((resolve, reject) => {
+const promise = new Promise((resolve, reject) => {
 
-//     let marks = 30;
+    let marks = 30;
 
-//     if (marks >= 40) {
-//         resolve("Student Passed");
-//     } else {
-//         reject("Student Failed");
-//     }
+    if (marks >= 40) {
+        resolve("Student Passed");
+    } else {
+        reject("Student Failed");
+    }
 
-// });
+});
 
-// promise
-//     .then((result) => {
-//         console.log(result);
-//     })
-//     .catch((error) => {
-//         console.log(error);
-//     });
+promise
+    .then((result) => {
+        console.log(result);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
 
 
-//     /// async / await
+    /// async / await
 
-//     // async
+    // async
 
-//     async function greet() {
-//     return "Hello Vinesh";
-// }
+    async function greet() {
+    return "Hello Vinesh";
+}
 
-// console.log(greet());
+console.log(greet());
 
 
 
